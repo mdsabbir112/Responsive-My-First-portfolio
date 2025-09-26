@@ -1,0 +1,421 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Top Navigation content (Add Developer image) */
+
+.Top-banner{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Navigation bar are Started */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Shared class */
+
+.mainclass{
+    background-color: #FFF8F3;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 0px;
+    
+   
+}
+
+.btn-contact{
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+
+
+/* Banner Information  */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0px 40px 0px 200px;
+
+}
+.banner-content{
+    width: 585px;
+    /* height: 356px; */
+    
+}
+.banner-hi{
+    font-weight: 600;
+    font-size: 45px;
+   
+    margin-bottom: 0px;
+    
+
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding: -5px; */
+    
+
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 20px;
+  
+
+}
+
+.banner img{
+    border-radius: 900px;
+}
+
+.banner-gap{
+    display: flex;
+    gap: 30px;
+}
+
+/* .banner-content > div{
+    diaplay: flex;
+    justify-content: flex-start;
+    gap: 30px;
+} */
+
+/* About page Information */
+
+.about{
+    margin: 40px 240px 130px 240px ;
+
+}
+
+.about-details{
+    padding: 131px 156px ;
+    text-align: center;
+    
+   
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    
+
+
+}
+.about-div{
+    background-color: #FFFFFF;
+    /* padding: 70px 40px; */
+    margin: 100px;
+    border: 1px solid #000000;
+}
+
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* margin-top: 20px; */
+
+}
+
+.about-list{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 40px 0px; */
+}
+
+.about-head{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-head2{
+    font-weight: 700;
+    font-size: 19px;
+
+    /* line-height: 30px; */
+}
+
+/* Card and List items  */
+
+.card{
+   
+
+}
+
+.card-header{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.what{
+    font-weight: 700;
+    font-size: 35px;
+    /* margin-bottom: 0px; */
+}
+.card-pera{
+    width: 55%;
+    margin: 0px auto;
+    font-weight: 400;
+    font-size: 18px;    
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* .card-header p{
+    margin: 30px 420px 50px 420px;
+    
+} */
+
+.card-2{
+    /* margin: 50px 230px 100px 230px; */
+    margin: auto;
+    width: 80%;
+    margin-bottom: 80px;
+    
+   
+}
+.card-list{
+     display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    
+
+}
+.card-list div{
+      /* padding; 30px; */
+      width: 250px;
+      height: 370px;
+       box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.skill-description{
+    /* padding: 30px; */
+      font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.div-padding{
+    padding: 20px;
+}
+
+.style-title{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+/* CV  Section  */
+
+.section{
+
+}
+
+.section-deatails{
+
+}
+
+.section-maintitle{
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px ;
+    
+
+    /* margin:130px 570px 110px 570px ; */
+    
+}
+
+.section-content{
+    display: flex; 
+    gap: 70px;
+    margin: 0px 220px 50px 270px ;
+}
+
+.section-button{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 113px ;
+    /* margin: 0px 700px 0px 700px ; */
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: 700;
+    
+
+}
+
+.school{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Footer Section  */
+
+.main-footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 120px;
+    padding: 130px 230px 130px 230px ;
+    
+    
+    
+}
+
+.footer-connect{
+    width: 50%;
+
+}
+
+.foot-title{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.icon-gap{
+    display: flex;
+    gap: 25px;
+}
+
+.foot-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 28px;
+    width: 70%;
+  
+}
+
+/* Form Design */
+
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 100%;
+    padding: 18px 30px 18px 20px;
+    /* padding: 10px 20px; */
+    /* height: 64px; */
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Rsponsive Layout */
+
+.hide{
+    display: none;
+}
+
+/* Media Query for responsive  */
+
+@media screen and (max-width: 575px) {
+    .card-list{
+        flex-direction: column;
+    }
+    .card-header {
+        margin: 0px;
+        text-align: none;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+    .card-2{
+    /* margin: 50px 230px 100px 230px; */
+    margin: auto;
+    width: 70%;
+    
+   
+}
+.section-content{
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main-footer{
+    flex-direction: column;
+    padding:  30px;
+}
+.footer-connect {
+    width: 100%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: calc(100% - 40px);
+}
+}
