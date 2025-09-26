@@ -376,7 +376,21 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
     border-radius: 5px;
 }
-
+/* input::placeholder{
+    color: blueviolet;
+} */
+  input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+     input:focus{
+        outline: none;
+        border: 2px solid #28a745;
+         /* border: 2px solid #007BFF; */
+  box-shadow: 0 0 5px #007BFF;
+    }
 /* Rsponsive Layout */
 
 .hide{
