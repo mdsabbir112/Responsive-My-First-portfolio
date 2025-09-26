@@ -89,6 +89,7 @@ li a {
     justify-content: space-between;
     /* align-items: center; */
     margin: 0px 40px 0px 200px;
+    gap: 60px;
 
 }
 .banner-content{
@@ -118,6 +119,7 @@ li a {
     font-weight: 400;
     font-size: 18px;
     padding-bottom: 20px;
+    width: 70%;
   
 
 }
@@ -401,12 +403,14 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 /* Media Query for responsive  */
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
     /* nav section */
     nav{
         justify-content: flex-start;
-        padding: 10px;
+        /* padding: 10px; */
         margin: 0px;
+        width: 100%;
+        gap: 0px;
     }
     ul{
         gap: 20px;
